@@ -5,8 +5,8 @@
 use 5.14.1;
 use warnings;
 
-my ($orderNumber, $numberCharacters, $totalBill, $woodType, $colorCharacters );
-my ($customerName, $continueInt);
+my ($orderNumber, $numberCharacters, $totalBill, $woodType, $colorCharacters, $continueInt );
+my ($customerName);
 
 sub main {
 	use constant YES => 1;
